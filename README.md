@@ -1,7 +1,7 @@
-# cli
+# About cli
 A simple Erlang-based CLI shell for managing your Erlang/OTP applications
 
-## Usage
+### Usage
 ```console
 12> c(cli).
 {ok,cli}
