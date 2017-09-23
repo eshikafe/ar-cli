@@ -1,5 +1,5 @@
 # cli
-A simple Erlang CLI Shell for managing your Erlang/OTP applications
+A simple Erlang-based CLI shell for managing your Erlang/OTP applications
 
 ## Usage
 ```console
