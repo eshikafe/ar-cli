@@ -18,6 +18,10 @@ start() ->
 	config_db(),
 	exec_mode().
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% You can edit the banner to suit your purpose
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 banner() ->
 	io:format(" Display your banner here ~n").
 
@@ -166,7 +170,10 @@ show(P) ->
 			exec_mode_help()
 	end.	
 
-% Configuration database
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Configuration database 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 config_db() ->
 	mnesia:start(),
 	case mnesia:create_table(cmd, [{attributes, record_info(fields, cmd)}]) of
