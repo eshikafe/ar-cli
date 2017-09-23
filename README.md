@@ -92,7 +92,7 @@ banner() ->
 # Edited code
 banner() ->
 	io:format(" Copyright blah blah blah ~n"),
- io:format(" IF YOU ARE NOT AN AUTHORIZED USER PLEASE EXIT IMMEDIATELY").
+ io:format(" IF YOU ARE NOT AN AUTHORIZED USER PLEASE EXIT IMMEDIATELY~n").
  
 # Compile cli.erl and run cli:start()
 17> c(cli).
